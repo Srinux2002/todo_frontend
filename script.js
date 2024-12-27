@@ -72,3 +72,17 @@ const fetchTasks = async () => {
 }
 
 fetchTasks()
+
+//git commands note
+// git checkout -b <repo-name>     ----> create a new branch
+// git checkout <repo-name>       -----> switch a existing branch
+
+
+// after changes the , below steps are needed to push the code 
+/**
+ * git add .
+ * git commit -m "commit message"
+ * git pull origin <main-branch>
+ * git push origin <branch-name>
+ * create pull request to the main branch
+ */
